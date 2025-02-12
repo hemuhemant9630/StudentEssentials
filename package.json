@@ -1,16 +1,20 @@
 {
   "name": "studentessentials",
   "version": "1.0.0",
-  "description": "WebAPK",
+  "description": "ECOM WEB APK",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "HRH",
   "license": "MIT",
   "dependencies": {
-    "color": "^5.0.0",
-    "express": "^4.21.2"
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
   }
 }
