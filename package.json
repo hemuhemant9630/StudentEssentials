@@ -1,0 +1,16 @@
+{
+  "name": "studentessentials",
+  "version": "1.0.0",
+  "description": "WebAPK",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "HRH",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^5.0.0",
+    "express": "^4.21.2"
+  }
+}
